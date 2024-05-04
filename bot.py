@@ -30,4 +30,4 @@ def help(message):
     bot.reply_to(message, "https://youtube.com/playlist?list=PLEK6TOzUNTb6LOCawZLiAUJHfxpufGK9C&si=6sLw-URTEowcn0yR")
 
 
-bot.polling(none_stop=True, timeout=60, port=8443)
+bot.polling()
